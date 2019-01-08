@@ -1,11 +1,11 @@
-import javax.swing.Jframe;
+import javax.swing.JFrame;
 
 public class BasicElements{
 
 	public static void main(String[] args) {
-		Jframe myFrame = Jframe();
+		JFrame myFrame = new JFrame();
 
-		myFrame.setDefualtCloseOperation(myFrame.EXIT_ON_CLOSE);
+		myFrame.setDefaultCloseOperation(myFrame.EXIT_ON_CLOSE);
 		myFrame.setVisible(true);
 		myFrame.setSize(900, 600);
 
